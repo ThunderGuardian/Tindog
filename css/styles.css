@@ -1,0 +1,166 @@
+body {
+    font-family: sans-serif;
+}
+
+
+#title {
+    background-color: #ff4c68;
+    padding: 3% 15%;
+    color: white;
+    height: 60%;
+    position: relative;
+    /* z-index: 1; */
+}
+
+.titleimage {
+
+    width: 53%;
+    transform: rotate(25deg);
+
+}
+
+#intro {
+    font-family: sans-serif;
+    font-size: 4rem;
+    line-height: 1.5;
+
+}
+
+#navi {
+    padding: 0 0 4.5rem;
+}
+
+.nav-item {
+    font-size: 1.5rem;
+    padding: 0 20px;
+}
+
+
+#brand {
+    font-family: sans-serif;
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+
+
+/* Download button */
+.download-btn {
+    margin: 5% 3% 5% 0%;
+}
+
+
+
+/* Features */
+
+#features {
+    padding: 7% 14%;
+    background-color: white;
+    position: relative;
+    /* z-index: 10;  This is not req since features id comes after title id so it overlaps*/
+}
+
+.feature-box {
+    text-align: center;
+    padding: 5%;
+}
+
+.fh {
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+
+.icon {
+    color: #ef8172;
+    padding-bottom: 1rem;
+}
+
+.icon:hover {
+    color: #ff4c68;
+}
+
+/* Testimonials */
+#testimonials {
+    padding: 5% 15%;
+    text-align: center;
+    background-color: #ef8172;
+    color: white;
+}
+
+#carousel {
+    font-size: 3rem;
+    line-height: 1.5;
+    padding: 0 10%;
+}
+
+.testimonial-img {
+    width: 10%;
+    border-radius: 100%;
+
+}
+
+/* Press */
+#press {
+    background-color: #ef8172;
+    text-align: center;
+    padding: 3%;
+}
+
+.presslogo {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+
+}
+
+/* Pricing */
+#pricing {
+    text-align: center;
+    padding: 100px;
+}
+
+.pricing-column {
+    padding: 3% 2%;
+}
+
+@media (max-width:1181px){
+    .titleimage{
+        transform: rotate(0);
+        position: static;
+    }
+    #title{
+        text-align: center;
+    }
+}
+
+#cta{
+    background-color: #ff4c68;
+    text-align: center;
+    height: 45%;
+    padding: 0 440px;
+    padding-top: 40px;
+}
+
+#last{
+    font-family: sans-serif;
+    font-size: 4rem;
+    line-height: 1.5;
+    color: white;
+    margin-bottom:50px;
+    font-weight: bolder;
+
+}
+
+#footer{
+    text-align: center;
+    margin: 70px;
+
+}
+
+.footeri{
+    padding: 0 10px;
+    margin-bottom: 20px;
+}
+
